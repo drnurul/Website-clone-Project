@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255); /* Example color */
+  color: rgb(111, 110, 110);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.primary-btn {
+  background-color: #ed017f;
+  border: none;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  color: rgb(252, 252, 252);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: 700;
+}
+.secondary-btn {
+  background-color: #f8f8f8;
+  border: none;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  color: #ed017f;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  align-items: center;
+  font-weight: 700;
+}
+:root {
+  ---primary-text-color---: #9c9d9e;
+}
+
+/*--Chatgpt test---*/
+/* Styles for the navbar */
+/* Styles for the container */
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+/* Styles for the navbar */
+.navbar {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  /* Additional styling for the navbar */
+  color: var(---primary-text-color---);
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding-inline: 80px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.navbar ul li a {
+  color: var(---primary-text-color---);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Styles for the left and right divs */
+.left,
+.right {
+  width: 50%;
+  height: 100%;
+  float: left;
+  /* Additional styling for the left and right divs */
+}
+
+.left {
+  background-color: rgb(255, 255, 255); /* Example color */
+}
+
+.right {
+  background-color: rgb(244, 220, 239); /* Example color */
+}
+
+.center-button {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* Additional styling for the button */
+}
+.right-button {
+  position: absolute;
+  top: 35%;
+  left: 75%;
+  /* Additional styling for the button */
+}
+.hero-img {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 50%;
+}
+.double {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.text {
+  position: absolute;
+  top: 40%;
+  left: 6%;
+}
+.text h2 {
+  font-size: 65px;
+  letter-spacing: 1px;
+}
+.text h4 {
+  color: var(---primary-text-color---);
+}
+.dual-btn {
+  margin-top: 10px;
+}
+.right-btn {
+  margin-left: 15px;
+}
+span{
+  padding-inline: 10px;
+}
+.contact{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  padding-right: 130px;
+}
