@@ -55,8 +55,8 @@
   ---primary-text-color---: #9c9d9e;
 }
 
-/*--Chatgpt test---*/
-/* Styles for the navbar */
+
+
 /* Styles for the container */
 .container {
   position: relative;
@@ -105,11 +105,11 @@
 }
 
 .left {
-  background-color: rgb(255, 255, 255); /* Example color */
+  background-color: rgb(255, 255, 255); 
 }
 
 .right {
-  background-color: rgb(244, 220, 239); /* Example color */
+  background-color: rgb(244, 220, 239); 
 }
 
 .center-button {
